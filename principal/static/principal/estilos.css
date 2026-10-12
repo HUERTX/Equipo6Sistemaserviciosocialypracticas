@@ -1,26 +1,51 @@
 h1 {
-            color: deeppink;
-            text-align: center;
-        }
-        
-        p {
-            color: black;
-            font-size: 16px;
-        }
+    color: deeppink;
+    text-align: center;
+}
 
-        nav {
-            background-color: lightpink;
-            padding: 10px;
-            border-radius: 5px;
-        }
+p {
+    color: black;
+    font-size: 16px;
+}
 
-        nav a {
-            color: mediumvioletred;
-            text-decoration: none;
-            font-weight: bold;
-            margin-right: 10px;
-        }
+nav {
+    background-color: lightpink;
+    padding: 10px;
+    border-radius: 5px;
+}
 
-        .destacado {
-            color: hotpink;
-            font-weight: bold;
+nav a {
+    color: mediumvioletred;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.destacado {
+    color: hotpink;
+    font-weight: bold;
+}
+
+/* --- Estilos para el Calendario de Horarios --- */
+.seccion-calendario {
+    text-align: center;
+    margin: 30px auto;
+    max-width: 800px;
+}
+
+.tabla-horario {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.tabla-horario th, .tabla-horario td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla-horario th {
+    background-color: #004080;
+    color: white;
+}
