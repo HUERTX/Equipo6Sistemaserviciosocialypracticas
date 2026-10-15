@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 def inicio(request):
-    return render(request, 'principal/inicio.html')
+    return render(request, 'inicio.html')
 
 def contacto(request):
-    return render(request, 'principal/contacto.html')
+    return render(request, 'contacto.html')
