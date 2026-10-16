@@ -49,3 +49,25 @@ nav a {
     background-color: #004080;
     color: white;
 }
+/* --- Contenedor Principal Centrado --- */
+.contenedor-principal {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+/* --- Colores para los Títulos (H2 y H4) --- */
+h2 {
+    color: #8b1e3f; /* Un tono guinda/rosa oscuro muy elegante */
+}
+
+h4 {
+    color: #c2185b; /* Un tono rosa institucional para las tarjetas */
+}
+
+/* --- Color para los párrafos y listas --- */
+p, li {
+    color: #333333; /* Un gris oscuro lectura profesional */
+}
